@@ -139,6 +139,10 @@ export default function App() {
 
 
 
+
+
+
+
 // import React, { Component } from 'react';
 // import PictureErrorView from './PictureErrorView/PictureErrorView';
 // import ImageGallery from 'components/ImageGallery/ImageGallery';
