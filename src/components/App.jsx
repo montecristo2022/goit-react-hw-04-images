@@ -29,6 +29,7 @@ export default function App() {
     }
 
     if (oldPictureName !== pictureName || oldPage !== page) {
+
       console.log('не равно');
       console.log(oldPage);
       setStatus('pending');
@@ -58,6 +59,9 @@ export default function App() {
           );
           setSearchTotal(picture.total);
           setPhoto(prevState => [...prevState, ...mappedImages]);
+
+
+
 
           setStatus('resolved');
         })
@@ -196,10 +200,10 @@ export default function App() {
 
 //           this.setState({ picture, status: 'resolved' });
 
-//           this.setState(prevState => ({
-//             photo: [...prevState.photo, ...mappedImages],
-//             searchTotal: picture.total,
-//           }));
+          // this.setState(prevState => ({
+          //   photo: [...prevState.photo, ...mappedImages],
+          //   searchTotal: picture.total,
+          // }));
 //         })
 //         .catch(error => {
 //           this.setState({ error, status: 'rejected' });
