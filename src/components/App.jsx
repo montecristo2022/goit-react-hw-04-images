@@ -12,9 +12,9 @@ export default function App() {
   const [page, setPage] = useState(1);
   const [error, setError] = useState(null);
   const [status, setStatus] = useState('idle');
-  const [largeImage, setLargeImage] = useState('');
+  // const [largeImage, setLargeImage] = useState('');
   const [showModal, setShowModal] = useState(false);
-  const [tags, setTags] = useState('');
+  const [tags] = useState('');
   const [photo, setPhoto] = useState([]);
   const [searchTotal, setSearchTotal] = useState(null);
 
