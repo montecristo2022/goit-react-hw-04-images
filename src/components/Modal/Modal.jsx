@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export default function Modal({ largeImage, alt, onModalClick }) {
   useEffect(() => {
     window.addEventListener('keydown', onKeyDown);
-
+console.log(alt)
     return () => {
       window.removeEventListener('keydown', onKeyDown);
     };

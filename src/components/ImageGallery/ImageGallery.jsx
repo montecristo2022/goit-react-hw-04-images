@@ -13,7 +13,7 @@ export default function ImageGallery({ hits, onOpenModal }) {
                 url={webformatURL}
                 largeImageURL={largeImageURL}
                 tag={tags}
-                openModal={onOpenModal}
+                 openModal={onOpenModal}
               />
             </li>
           );
